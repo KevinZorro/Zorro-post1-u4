@@ -41,7 +41,7 @@ que almacena el estado anterior para soportar `undo()`:
 ## Ejecución
 
 ```bash
-git clone https://github.com/<usuario>/Zorro-post1-u4.git
+git clone https://github.com/KevinZorro/Zorro-post1-u4.git
 cd Zorro-post1-u4
 mvn clean package
 mvn spring-boot:run
@@ -69,3 +69,6 @@ Estado actual: Pedido{id='P-001', estado='CONFIRMADO', total=40500.00}
 --- Deshaciendo última acción (descuento) ---
 [UNDO] Descuento revertido: $45000.00 restaurado
 Estado después de undo: Pedido{id='P-001', estado='CONFIRMADO', total=45000.00}
+
+---Capturas de ejecución ---
+<img width="678" height="550" alt="image" src="https://github.com/user-attachments/assets/b748dfe5-6f56-43f0-9659-9750b1cec44c" />
